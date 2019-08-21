@@ -1,20 +1,22 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>operadores de comparacion</title>
+    <title>ejercicio_6</title>
 </head>
 <body>
-<h1>operadores de comparacion</h1>
+    <h1>practica 6</h1>
+    <h2>crea la variable  $nombre y asigne tu nombre</h2>
+    <p>
     <?php
-     $a = 8;
-     $b = 8;
-     $c= 5;
-     if($a == $b){
-         echo "$a es igual a $b<br>";
-     }    
-     ?>
+    $nombre = "Nombre Grower";
+    echo $nombre;
+    ?>
+    
+    </p>
+    
 </body>
 </html>

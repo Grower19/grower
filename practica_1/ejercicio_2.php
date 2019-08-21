@@ -1,22 +1,24 @@
-<?php 
-setcookie("valor_1", "1");
-setcookie("valor_2", "2");
-setcookie("valor_3", "3");
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>ejemplo de variable reservada Cookie</title>
+    <title>ejercicio_2</title>
 </head>
 <body>
-    <pre>
+    <h1>practica 2</h1>
+    <h2>escribeun programa que muestre tu direccion y tu numero de celular</h2>
+    <p>
     <?php
-    print_r($_COOKIE);
+    echo "grower";
     ?>
-    <pre>
+    <br>
+    <p>escoma</p>
+    <?php
+    echo "71974444";
+    ?>
+    </p>
     
 </body>
 </html>
